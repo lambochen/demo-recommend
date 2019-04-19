@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/demo-recommend.iml" filepath="$PROJECT_DIR$/.idea/demo-recommend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/librec/librec.iml" filepath="$PROJECT_DIR$/librec/librec.iml" />
     </modules>
   </component>
 </project>
