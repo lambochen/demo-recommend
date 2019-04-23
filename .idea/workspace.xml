@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc3f632-699d-418a-849c-094a5209a7ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java" beforeDir="false" afterPath="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/librec/target/" />
@@ -55,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="175">
+              <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,6 +174,19 @@
               <item name="demo-recommend" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-recommend" type="462c0819:PsiDirectoryNode" />
               <item name="mahout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-recommend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="mahout" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-recommend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-recommend" type="462c0819:PsiDirectoryNode" />
+              <item name="mahout" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="cf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo-recommend" type="b2602c69:ProjectViewProjectNode" />
@@ -310,7 +322,7 @@
       <workItem from="1555738649994" duration="1290000" />
       <workItem from="1555755978802" duration="2300000" />
       <workItem from="1555812287594" duration="1350000" />
-      <workItem from="1555979796359" duration="900000" />
+      <workItem from="1555979796359" duration="1202000" />
     </task>
     <servers />
   </component>
@@ -330,14 +342,18 @@
     <history-entry file="LibRecTest_librec - 2019.04.08 at 09h 28m 31s.xml">
       <configuration name="LibRecTest.librec" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserBasedRecommender_userBasedRecommender - 2019.04.23 at 08h 51m 32s.xml">
+      <configuration name="UserBasedRecommender.userBasedRecommender" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14729000" />
+    <option name="totallyTimeSpent" value="15031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22281879" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22281879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Web" order="3" side_tool="true" />
@@ -348,7 +364,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45441595" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.45441595" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -630,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="175">
+          <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
