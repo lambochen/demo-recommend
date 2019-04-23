@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc3f632-699d-418a-849c-094a5209a7ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mahout/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mahout/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java" beforeDir="false" afterPath="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/librec/target/" />
     <ignored path="$PROJECT_DIR$/mahout/target/" />
@@ -22,24 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/librec/librec-core/2.0.0/librec-core-2.0.0.jar!/net/librec/data/model/TextDataModel.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/librec/librec-core/2.0.0/librec-core-2.0.0.jar!/net/librec/data/model/AbstractDataModel.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/net/librec/librec-core/2.0.0/librec-core-2.0.0.jar!/net/librec/data/model/JDBCDataModel.class">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,13 +55,27 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="247">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/impl/model/file/FileDataModel.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mahout/data/cf/intro.csv">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -211,38 +206,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mahout" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="demo-recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-recommend" type="462c0819:PsiDirectoryNode" />
-              <item name="mahout" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-recommend" type="462c0819:PsiDirectoryNode" />
-              <item name="mahout" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-recommend" type="462c0819:PsiDirectoryNode" />
-              <item name="mahout" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-recommend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-recommend" type="462c0819:PsiDirectoryNode" />
-              <item name="mahout" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mahout" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -260,6 +223,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\demo-recommend\mahout\data\cf" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -272,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibRecTest.librec">
+  <component name="RunManager" selected="JUnit.UserBasedRecommender.userBasedRecommender">
     <configuration name="LibRecTest.librec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="librec" />
       <extension name="coverage">
@@ -284,6 +252,22 @@
       <option name="PACKAGE_NAME" value="com.chenlinghong.librec" />
       <option name="MAIN_CLASS_NAME" value="com.chenlinghong.librec.LibRecTest" />
       <option name="METHOD_NAME" value="librec" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserBasedRecommender.userBasedRecommender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mahout" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chenlinghong.mahout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chenlinghong.mahout" />
+      <option name="MAIN_CLASS_NAME" value="com.chenlinghong.mahout.UserBasedRecommender" />
+      <option name="METHOD_NAME" value="userBasedRecommender" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -305,6 +289,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserBasedRecommender.userBasedRecommender" />
         <item itemvalue="JUnit.LibRecTest.librec" />
       </list>
     </recent_temporary>
@@ -325,7 +310,7 @@
       <workItem from="1555738649994" duration="1290000" />
       <workItem from="1555755978802" duration="2300000" />
       <workItem from="1555812287594" duration="1350000" />
-      <workItem from="1555979796359" duration="138000" />
+      <workItem from="1555979796359" duration="900000" />
     </task>
     <servers />
   </component>
@@ -347,13 +332,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13967000" />
+    <option name="totallyTimeSpent" value="14729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22281879" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22281879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Web" order="3" side_tool="true" />
@@ -364,7 +348,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.09686609" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45441595" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -397,6 +381,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/librec/.gitignore">
@@ -622,10 +618,20 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/mahout/data/cf/intro.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-core/0.9/mahout-core-0.9.jar!/org/apache/mahout/cf/taste/impl/model/file/FileDataModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="247">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
