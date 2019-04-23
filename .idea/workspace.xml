@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cc3f632-699d-418a-849c-094a5209a7ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/ItemBasedRecommender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java" beforeDir="false" afterPath="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/ItemBasedRecommender.java" beforeDir="false" afterPath="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/ItemBasedRecommender.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/librec/target/" />
     <ignored path="$PROJECT_DIR$/mahout/target/" />
@@ -44,7 +42,7 @@
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="107">
@@ -56,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/ItemBasedRecommender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="216">
+              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -144,8 +142,8 @@
         <option value="$PROJECT_DIR$/librec/pom.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/mahout/pom.xml" />
-        <option value="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/ItemBasedRecommender.java" />
         <option value="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java" />
+        <option value="$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/ItemBasedRecommender.java" />
       </list>
     </option>
   </component>
@@ -258,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserBasedRecommender.userBasedRecommender">
+  <component name="RunManager" selected="JUnit.ItemBasedRecommender.itemBasedRecommender">
     <configuration name="ItemBasedRecommender.itemBasedRecommender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mahout" />
       <extension name="coverage">
@@ -323,8 +321,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserBasedRecommender.userBasedRecommender" />
         <item itemvalue="JUnit.ItemBasedRecommender.itemBasedRecommender" />
+        <item itemvalue="JUnit.UserBasedRecommender.userBasedRecommender" />
         <item itemvalue="JUnit.LibRecTest.librec" />
       </list>
     </recent_temporary>
@@ -345,14 +343,11 @@
       <workItem from="1555738649994" duration="1290000" />
       <workItem from="1555755978802" duration="2300000" />
       <workItem from="1555812287594" duration="1350000" />
-      <workItem from="1555979796359" duration="3234000" />
+      <workItem from="1555979796359" duration="6701000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibRecTest_librec - 2019.04.08 at 09h 04m 42s.xml">
-      <configuration name="LibRecTest.librec" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LibRecTest_librec - 2019.04.08 at 09h 05m 55s.xml">
       <configuration name="LibRecTest.librec" configurationId="JUnit" />
     </history-entry>
@@ -377,15 +372,21 @@
     <history-entry file="ItemBasedRecommender_itemBasedRecommender - 2019.04.23 at 10h 06m 17s.xml">
       <configuration name="ItemBasedRecommender.itemBasedRecommender" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserBasedRecommender_userBasedRecommender - 2019.04.23 at 10h 06m 59s.xml">
+      <configuration name="UserBasedRecommender.userBasedRecommender" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemBasedRecommender_itemBasedRecommender - 2019.04.23 at 10h 14m 24s.xml">
+      <configuration name="ItemBasedRecommender.itemBasedRecommender" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17063000" />
+    <option name="totallyTimeSpent" value="20530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22281879" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22281879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Web" order="3" side_tool="true" />
@@ -396,7 +397,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.46581197" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.505698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -664,20 +665,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/ItemBasedRecommender.java">
+    <entry file="file://$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        <state relative-caret-position="107">
+          <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/UserBasedRecommender.java">
+    <entry file="file://$PROJECT_DIR$/mahout/src/main/java/com/chenlinghong/mahout/ItemBasedRecommender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="29" column="83" selection-start-line="29" selection-start-column="83" selection-end-line="29" selection-end-column="83" />
+        <state relative-caret-position="216">
+          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
