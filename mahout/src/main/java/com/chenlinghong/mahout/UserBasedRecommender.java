@@ -27,7 +27,7 @@ public class UserBasedRecommender {
 
     @Test
     public void userBasedRecommender() throws IOException, TasteException {
-        File file = new File("F:\\code\\demo-recommend\\mahout\\data\\cf\\ml-ratings.dat");
+        File file = new File("F:\\code\\demo-recommend\\mahout\\data\\cf\\intro.csv");
         DataModel dataModel = new FileDataModel(file);
 
         // 用户相似度计算，采用皮尔逊相关系数计算
